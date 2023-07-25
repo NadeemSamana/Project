@@ -1,0 +1,60 @@
+
+
+.navbar{
+    background-color: violet;
+}
+
+.container{
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.child{
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.data , .card-text{
+    overflow-wrap: normal;
+}
+
+.foot{
+    display: block;
+}
+
+.spot{
+    text-align: center;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.diff{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item:hover{
+    border: 1px solid green;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.nav-item:active{
+    background-color: white;
+}
+
+
+
+
+
+
+
